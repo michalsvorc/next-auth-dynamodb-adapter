@@ -1,0 +1,63 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    /* Modules */
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    /* Directories */
+    "baseUrl": ".",
+    "outDir": "dist",
+    // "rootDir": ".",
+    /* Compilation */
+    "incremental": false,
+    "declaration": true,
+    "inlineSourceMap": false,
+    "removeComments": true,
+    "sourceMap": true,
+    "lib": [
+      "es2017"
+    ],
+    "types": [
+      "node",
+      "jest"
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "src/types"
+    ],
+    /* Type-Checking */
+    // "noImplicitAny": true,
+    "strictNullChecks": true,
+    // "strictFunctionTypes": true,
+    // "strictPropertyInitialization": true,
+    // "alwaysStrict": true,
+    "skipLibCheck": true,
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    /* Debugging */
+    "traceResolution": false,
+    "listEmittedFiles": false,
+    "listFiles": false,
+    "pretty": true,
+    /* Experimental */
+    // "experimentalDecorators": true,
+    // "emitDecoratorMetadata": true,
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "**/*.spec.ts"
+  ],
+  // "files": []
+  "compileOnSave": false
+}

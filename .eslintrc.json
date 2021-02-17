@@ -1,0 +1,47 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:functional/lite",
+    "plugin:import/typescript",
+    "plugin:jest/recommended",
+    "plugin:prettier/recommended",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
+  "plugins": [
+    "const-case",
+    "functional",
+    "import",
+    "prettier"
+  ],
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/ban-ts-ignore": "off",
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/no-unused-vars": "off",
+    "const-case/uppercase": "warn",
+    "functional/no-class": "off",
+    "functional/no-this-expression": "off",
+    "functional/prefer-type-literal": "off",
+    "import/order": [
+      "warn",
+      { "newlines-between": "always", "alphabetize": { "order": "asc" } }
+    ],
+    "prettier/prettier": ["warn", {}, { "usePrettierrc": true }],
+    "sort-imports": [
+      "warn",
+      { "ignoreDeclarationSort": true, "ignoreCase": true }
+    ]
+  },
+  "settings": {
+    "import/internal-regex": "^@/"
+  }
+}
