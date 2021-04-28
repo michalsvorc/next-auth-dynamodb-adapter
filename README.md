@@ -15,7 +15,7 @@ Database sessions are not implemented, this adapter relies on usage of JSON Web 
 
 ### Notice
 
-This package is not supported by the [NextAuth.js](https://next-auth.js.org). Visit the community supported NextAuth.js [adapters repository](https://github.com/nextauthjs/adapters) if this package does not meet your requirements.
+This package is not supported by [NextAuth.js](https://next-auth.js.org), visit the official [AWS DynamoDB Adapter](https://github.com/nextauthjs/adapters/tree/canary/packages/dynamodb) for advanced features and community support.
 
 ## Installation
 
